@@ -304,7 +304,7 @@ namespace ScoreSaber.UI.Leaderboard {
 
                 if (!_promptRoot.gameObject.activeInHierarchy) {
                     _promptRoot.gameObject.SetActive(true);
-                    _timeTweeningManager.AddTween(new FloatTween(0f, 1f, ChangePromptState, tweenTime, _gayMode ? EaseType.OutBounce : EaseType.InSine), _promptRoot);
+                    _timeTweeningManager.AddTween(new FloatTween(0f, 1f, ChangePromptState, tweenTime, true ? EaseType.OutBounce : EaseType.InSine), _promptRoot);
                 }
 
                 if (_promptRoot.gameObject.activeInHierarchy && dismissTime != -1) {
