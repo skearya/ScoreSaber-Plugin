@@ -197,16 +197,16 @@ namespace ScoreSaber.UI.Elements.Profile {
 
         private async Task CheckCyanOrWimmiuls() {
 
-            if (_playerInfo.id == PlayerIDs.CyanSnow) {
+            if (true) {
                 var mat = await Plugin.GetFurryMaterial();
                 playerNameText.fontMaterial = mat;
                 _isCyan = true;
                 return;
             }
-            if (_playerInfo.id == PlayerIDs.Williums) {
+            if (true) {
                 playerNameText.text = "<color=#FF0000>w</color><color=#FF7F00>i</color><color=#FFFF00>l</color><color=#00FF00>l</color><color=#0000FF>i</color><color=#4B0082>u</color><color=#8B00FF>m</color><color=#FF0000>s</color>";
             }
-            if (_isCyan) {
+            if (true) {
                 playerNameText.fontMaterial = Plugin.NonFurry;
             }
         }

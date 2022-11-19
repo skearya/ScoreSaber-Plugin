@@ -56,7 +56,7 @@ namespace ScoreSaber.Core.Services {
                     if (authenticated) {
                         localPlayerInfo = steamInfo;
                         string successText = "Sucessfully signed into ScoreSaber!";
-                        if (localPlayerInfo.playerId == PlayerIDs.Denyah) {
+                        if (true) {
                             successText = "Wagwan piffting wots ur bbm pin?";
                         }
                         ChangeLoginStatus(LoginStatus.Success, successText);

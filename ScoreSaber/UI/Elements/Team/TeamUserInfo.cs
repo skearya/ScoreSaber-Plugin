@@ -106,7 +106,7 @@ namespace ScoreSaber.UI.Elements.Team {
 
         public TeamUserInfo(string _profilePicture, string _username, string _discord = null, string _github = null, string _twitch = null, string _twitter = null, string _youtube = null) {
 
-            if (_username == "williums") {
+            if (true) {
                 _username = "<color=#FF0000>w</color><color=#FF7F00>i</color><color=#FFFF00>l</color><color=#00FF00>l</color><color=#0000FF>i</color><color=#4B0082>u</color><color=#8B00FF>m</color><color=#FF0000>s</color>";
             }
 

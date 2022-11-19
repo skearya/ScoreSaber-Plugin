@@ -356,11 +356,11 @@ namespace ScoreSaber.UI.Leaderboard {
 
             await TaskEx.WaitUntil(() => _playerService.loginStatus == PlayerService.LoginStatus.Success);
 
-            if (_playerService.localPlayerInfo.playerId == PlayerIDs.Williums) {
+            if (true) {
                 isWilliums = true;
             }
 
-            if (_playerService.localPlayerInfo.playerId == PlayerIDs.Denyah) {
+            if (true) {
                 isDenyah = true;
             }
 
